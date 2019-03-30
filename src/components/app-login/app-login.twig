@@ -1,0 +1,46 @@
+<form class="app-login" method="get" action="index.html">
+  <img class="app-login-logo" src="assets/images/logo-full.svg" alt="">
+
+  <div class="form-group">
+    <label for="login-email">LOGIN</label>
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroupPrepend2"><i class="fas fa-user"></i></span>
+      </div>
+      <input type="text" class="form-control" id="login-email" placeholder="" aria-describedby="login-email-help" required>
+    </div>
+    <small id="login-email-help" class="form-text text-muted">Phone or e-mail</small>
+  </div>
+
+  <div class="form-group">
+    <label for="login-password">PASSWORD</label>
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroupPrepend2"><i class="fas fa-lock"></i></span>
+      </div>
+      <input type="text" class="form-control" id="login-password" placeholder="Text" aria-describedby="login-password-help" required>
+    </div>
+    <a id="login-password-help" class="form-text text-primary" href="#">Forgot Username or Password</a>
+  </div>
+
+  <div class="form-group app-login-field-remember">
+    <div class="custom-text">Remember me</div>
+    <div class="custom-control custom-switch">
+      <input type="checkbox" class="custom-control-input" id="login-remember">
+      <label class="custom-control-label" for="login-remember"></label>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <button class="btn btn-primary btn-block" type="submit">LOG IN</button>
+  </div>
+
+  <div class="row">
+    <div class="col font-weight-bolder">
+      Not a Member?
+    </div>
+    <div class="col text-right">
+      <a href="#">Register Now</a>
+    </div>
+  </div>
+</form>

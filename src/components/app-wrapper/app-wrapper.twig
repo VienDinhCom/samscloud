@@ -1,0 +1,14 @@
+{% extends '../app-layout/app-layout.twig' %}
+
+{% block app_layout_children %}
+  <div class="app-wrapper">
+    {% include '../app-sidenav/app-sidenav.twig' %}
+    <main class="app-drawer-main">
+      {% include '../app-topnav/app-topnav.twig' %}
+      {% block app_wrapper_children %}{% endblock %}
+    </main>
+    <!-- /.app-drawer-main -->
+    {% include '../app-sidebar/app-sidebar.twig' %}
+  </div>
+  <!-- /.app-wrapper -->
+{% endblock %}
